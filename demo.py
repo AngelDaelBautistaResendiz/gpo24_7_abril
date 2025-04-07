@@ -3,9 +3,7 @@ class Cuadrado:
         self.lado = lado
     
     def area(self):
-     if self.lado == 0:
-        return 0
-     return self.lado * self.lado 
+        return self.lado * self.lado 
 
 ##################################
 lado = int(input("ingresa el valor del lado: "))
